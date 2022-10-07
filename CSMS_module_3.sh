@@ -1,6 +1,8 @@
 rm -rf CSMS_module_3
-#git clone git@github.com:igkimAuto/CSMS_frontend.git
-git clone https://github.com/igkimAuto/CSMS_module_3.git
+
+# git clone https://github.com/igkimAuto/CSMS_module_3.git
+git@github.com:igkimAuto/CSMS_module_3.git
+
 docker stop CSMS_module_3-container
 docker rm CSMS_module_3-container
 docker rmi CSMS_module_3-image

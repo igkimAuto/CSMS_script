@@ -1,6 +1,6 @@
 rm -rf CSMS_frontend
-#git clone git@github.com:igkimAuto/CSMS_frontend.git
-git clone https://github.com/igkimAuto/CSMS_frontend.git
+git clone git@github.com:igkimAuto/CSMS_frontend.git
+# git clone https://github.com/igkimAuto/CSMS_frontend.git
 docker stop vue-container
 docker rm vue-container
 docker rmi vue-image
